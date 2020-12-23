@@ -10,7 +10,7 @@ function AboutPage({tools, hobbies}) {
                 <div className='Hero-pic'></div>
                 
                 <p className='info'>Hi I'm Bojidar, and I'm an aspiring Web Developer located in Sofia Bulgaria. 
-                I'm deeply interested in software development, creative, highly motivated, 
+                I'm deeply interested in software development, I'm creative, highly motivated, 
                 eager to learn and open for the opportunity to begin my career as a web developer.</p>
                 
             </div>

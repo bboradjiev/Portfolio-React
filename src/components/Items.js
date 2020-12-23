@@ -58,7 +58,7 @@ export const ProjectsItems = [
     github: 'https://github.com/bboradjiev/Portfolio-React.git',
     description: ['React', 'HTML' , 'CSS', 'Context']},
 
-    {name:'Expence Tracker',
+    {name:'Expense Tracker',
     img: '/images/projects/ExpenceTracker.PNG',
     link: 'https://income-tracker-react.vercel.app/',
     github: 'https://github.com/bboradjiev/IncomeTracker',

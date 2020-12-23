@@ -9,10 +9,9 @@ function AboutPage({tools, hobbies}) {
                 
                 <div className='Hero-pic'></div>
                 
-                <p className='info'>Hi i'm Bojidar and im an aspiring Web Developer located in Sofia Bulgaria.
-                I'm Deeply interested in software development, Creative, Passionet, 
-                Highly Motivated, Eager to learn and open for the opportunity to begin my career as a Developer.
-                </p>
+                <p className='info'>Hi I'm Bojidar, and I'm an aspiring Web Developer located in Sofia Bulgaria. 
+                I'm deeply interested in software development, creative, highly motivated, 
+                eager to learn and open for the opportunity to begin my career as a web developer.</p>
                 
             </div>
 

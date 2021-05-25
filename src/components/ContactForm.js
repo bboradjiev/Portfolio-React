@@ -5,20 +5,31 @@ export default class MyForm extends React.Component {
     super(props);
     this.submitForm = this.submitForm.bind(this);
     this.state = {
-      status: ""
+      status: "",
     };
   }
 
   render() {
     const { status } = this.state;
     return (
-      <form className='contact-form'
+      <form
+        className="contact-form"
         onSubmit={this.submitForm}
         action="https://formspree.io/f/xaylprvv"
         method="POST"
       >
-        <input className="form-email" placeholder="Email" type="email" name="email" />
-        <textarea className="form-message" placeholder="Message" type="text" name="message" />
+        <input
+          className="form-email"
+          placeholder="Email"
+          type="email"
+          name="email"
+        />
+        <textarea
+          className="form-message"
+          placeholder="Message"
+          type="text"
+          name="message"
+        />
         {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>

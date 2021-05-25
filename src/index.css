@@ -1,292 +1,293 @@
-*,*::before,*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Source Sans Pro", sans-serif;
-    padding: 0;
-    margin: 0;
-    min-height: 100vh;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
 }
 
 /* Styling the header */
 a {
-    text-decoration: none; 
+  text-decoration: none;
 }
 
 h1 {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    background-color: #000000;
-    text-decoration: #cf7f04;
-    font-size: 1.5rem;
-    height: 6vh;
- }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #000000;
+  text-decoration: #cf7f04;
+  font-size: 1.5rem;
+  height: 6vh;
+}
 
- .navbar a {
-    color: #cf7f04;
-    font-size: 1.3rem;
- }
+.navbar a {
+  color: #cf7f04;
+  font-size: 1.3rem;
+}
 
 .navbar-right {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navbar-right a {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
 
 .hamburger {
-    display: none;
+  display: none;
 }
 
 /* Styling the HomePage */
 
 .homepage {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(./images/Background.png);
-    background-position: center center;
-    background-attachment: fixed;
-    background-color: #464646;
-    background-size: cover;
-    height: 89vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/Background.png);
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #464646;
+  background-size: cover;
+  height: 89vh;
 }
 
-.homepage h1, 
-.homepage h3, 
-.homepage p, 
+.homepage h1,
+.homepage h3,
+.homepage p,
 .homepage .contact-items {
-    top: -5vh;
-    color: #ffffff;
-    position: relative;
-    text-shadow: 0 0 3px white;
+  top: -5vh;
+  color: #ffffff;
+  position: relative;
+  text-shadow: 0 0 3px white;
 }
 
 .homepage h1 {
-    font-size: 90px;
+  font-size: 90px;
 }
 .homepage h3 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .homepage p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
-.homepage .contact-items  {
-    margin-top: 32px
+.homepage .contact-items {
+  margin-top: 32px;
 }
 
-.contact-items img  {
-    background-color: #85959c;
-    border-radius: 11px;
- 
-    height: 3.5rem;
-    margin: 0 22px;
+.contact-items img {
+  background-color: #85959c;
+  border-radius: 11px;
+
+  height: 3.5rem;
+  margin: 0 22px;
 }
 
 /* Styling the AboutPage */
 
-.about-section  {
-    display: flex;
-    justify-content: space-around;
-    background-color:  #cbcdce;
-    min-height: 87vh;
+.about-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #cbcdce;
+  min-height: 87vh;
 }
 
-.about  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 120px 0;
-    max-width: 30rem; 
- }
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 120px 0;
+  max-width: 30rem;
+}
 
 .about h1,
 .toolkit h1,
-.hobbies-section h1  {
-    color: #cf7f04;
-    font-size: 25px;
-    font-weight: 600;
-    text-shadow: 0 0 0.6px white;
+.hobbies-section h1 {
+  color: #cf7f04;
+  font-size: 25px;
+  font-weight: 600;
+  text-shadow: 0 0 0.6px white;
 }
 
-.Hero-pic  {
-    background: url(./images/profile_pic.JPG) 95% 5% no-repeat;
-    background-size: cover;
-    height: 16rem;
-    width: 16rem;
-    border-radius: 50%;
-    margin-bottom: 2em;
-    box-shadow: 0 0 0.7rem;
+.Hero-pic {
+  background: url(./images/profile_pic.JPG) 95% 5% no-repeat;
+  background-size: cover;
+  height: 16rem;
+  width: 16rem;
+  border-radius: 50%;
+  margin-bottom: 2em;
+  box-shadow: 0 0 0.7rem;
 }
 
-.info  {
-    text-align: center;
-    margin: 0 20px;
-    color: black;
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-shadow: 0 0 0.6px white;
-    line-height: 35px
+.info {
+  text-align: center;
+  margin: 0 20px;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-shadow: 0 0 0.6px white;
+  line-height: 35px;
 }
 
 /* Styling Toolkit and Hobbies Section */
 
-.toolkit-section  {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-    margin: 120px 0;
+.toolkit-section {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  margin: 120px 0;
 }
 
 .toolkit,
-.hobbies-section  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
- }
+.hobbies-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-.toolkit  {
-    margin-bottom: 100px;
+.toolkit {
+  margin-bottom: 100px;
 }
 
 .toolkit p,
-.hobbies-items  {
-    color: black;
-    font-size: 15px;
-    font-weight: 600;
-    text-shadow: 0px 0px 0.6px white;
+.hobbies-items {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  text-shadow: 0px 0px 0.6px white;
 }
 
 .toolkit img,
-.hobbies-items img  {
-    height: 4.5rem;
-    margin: 0 7px;
+.hobbies-items img {
+  height: 4.5rem;
+  margin: 0 7px;
 }
 
 .toolkit-items,
 .hobbies-items {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    flex-direction: row;
- }
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 
 .toolkit-items li,
-.hobbies-items li  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 10px 10px 10px;
+.hobbies-items li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px 10px 10px;
 }
 
 /* Styling Projects Section */
 
-.projects-section  {
-    display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap;
-    min-height: 89vh;
-    justify-content: center;
-    background-color: #cbcdce;
- }
+.projects-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 89vh;
+  justify-content: center;
+  background-color: #cbcdce;
+}
 
-.projects-section li  {
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    width: 500px;
-    height: 295px;
-    position: relative;
-    padding: 0;
-    border: 3px solid black;
-    border-radius: 5px;
-    margin: 20px;
-    padding-top: 40px;
-    overflow: hidden;
+.projects-section li {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 500px;
+  height: 295px;
+  position: relative;
+  padding: 0;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  padding-top: 40px;
+  overflow: hidden;
 }
 
 .projects-section img {
-    width: 100%;
-    height: 100%;
-    transition: all .2s ease-in-out;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s ease-in-out;
 }
 
-.projects-section img:hover{
+.projects-section img:hover {
   transform: scale(1.05);
 }
 
-.projects-section p{
-    position: absolute;
-    color: white;
-    top:6px;
-    left: 20px;
-    font-size: 21px;
-    font-weight: 600;
-    border-radius: 20px;
-    padding: 0 5px;
+.projects-section p {
+  position: absolute;
+  color: white;
+  top: 6px;
+  left: 20px;
+  font-size: 21px;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 0 5px;
 }
 
 .github-link {
-    position: absolute;
-    background-color: white;
-    color: black;
-    top:6px;
-    right: 20px;
-    font-size: 21px;
-    font-weight: 600;
-    border-radius: 20px;
-    padding: 0 5px;
- }
-
+  position: absolute;
+  background-color: white;
+  color: black;
+  top: 6px;
+  right: 20px;
+  font-size: 21px;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 0 5px;
+}
 
 /* Styling Projects Contacts section */
 
 .contact-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 89vh;
-    align-items: center;
-    background-image: url(./images/Background.png);
-    background-position: center center;
-    background-attachment: fixed;
-    background-color: #464646;
-    background-size: cover;
-    padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 89vh;
+  align-items: center;
+  background-image: url(./images/Background.png);
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #464646;
+  background-size: cover;
+  padding-top: 50px;
 }
 
-.contact-section h1{
-    color: #ffffff;
-    font-size: 32px;
-    font-weight: 700;
-    text-shadow: 0 0 3px white;
+.contact-section h1 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: 0 0 3px white;
 }
 
 .contact-form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-email,
@@ -295,8 +296,7 @@ li {
   margin-bottom: 10px;
   font-size: 21px;
   font-weight: 600;
-  border: 2px solid black
-
+  border: 2px solid black;
 }
 
 .form-message {
@@ -306,7 +306,7 @@ li {
   font-weight: 600;
   height: 300px;
   width: 350px;
-  border: 2px solid black
+  border: 2px solid black;
 }
 
 .contact-section .contact-items img {
@@ -317,54 +317,55 @@ li {
 }
 
 .contact-form button {
-    margin-bottom: 20px;
-    font-size: 21px;
-    font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 600;
 }
 
 /* styling Footer section */
 
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000000;
-    height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  height: 5vh;
 }
 
 .footer p {
-    color:  #cf7f04;
-    padding: 5px 0;
+  color: #cf7f04;
+  padding: 5px 0;
 }
 
-@media screen and (max-width: 1240px){
+@media screen and (max-width: 1240px) {
   .about-section {
     min-height: 89vh;
   }
-  
+
   .info {
     font-size: 1.2rem;
   }
-  
-  .toolkit img, .hobbies-items img{
+
+  .toolkit img,
+  .hobbies-items img {
     height: 3.5rem;
     margin: 0 7px;
   }
 
-  .about h1, 
-  .toolkit h1, 
+  .about h1,
+  .toolkit h1,
   .hobbies-section h1 {
     font-size: 19px;
   }
 
-  .Hero-pic{
+  .Hero-pic {
     height: 13rem;
     width: 13rem;
   }
 }
 
-@media screen and (max-width: 780px){
-  .about-section{
+@media screen and (max-width: 780px) {
+  .about-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -372,17 +373,17 @@ li {
   }
 }
 
-@media screen and (max-width: 650px){
-  .navbar a{
+@media screen and (max-width: 650px) {
+  .navbar a {
     font-size: 0.9rem;
     font-weight: 500;
   }
 
-  .homepage h1{
+  .homepage h1 {
     font-size: 4rem;
   }
 
-  .homepage h3{
+  .homepage h3 {
     font-size: 21px;
   }
 
@@ -390,18 +391,17 @@ li {
     font-size: 15px;
   }
 
-  .contact-items img{
+  .contact-items img {
     height: 3rem;
   }
 
-  .footer p{
+  .footer p {
     font-size: 11px;
   }
 
   .projects-section li {
     width: 350px;
     height: 221px;
-
   }
 
   .projects-section p {
@@ -413,7 +413,7 @@ li {
   }
 }
 
-@media screen and (max-width: 510px){
+@media screen and (max-width: 510px) {
   .navbar {
     justify-content: center;
     z-index: 1;
@@ -421,7 +421,7 @@ li {
     transition: all 0.5s ease;
     height: 40px;
     width: 100%;
-    position: fixed;  
+    position: fixed;
     top: 0;
     left: 0;
   }
@@ -437,7 +437,7 @@ li {
 
   .about-section {
     display: flex;
-    align-content: center; 
+    align-content: center;
   }
 
   .homepage,
@@ -452,14 +452,14 @@ li {
 
   .info {
     font-size: 1.2rem;
-   }
+  }
 
   .navbar-left {
     z-index: 1;
     font-size: 1rem;
   }
 
-  .navbar-right{
+  .navbar-right {
     flex-direction: column;
     margin-top: 40px;
     justify-content: start;
@@ -469,7 +469,7 @@ li {
     right: 0;
     background-color: #272727;
     height: 100vh;
-   }
+  }
 
   li {
     padding-left: 10px;
@@ -492,20 +492,18 @@ li {
     top: 5px;
     right: 10px;
     padding: 5px;
-   }
-
+  }
 }
 
-@media screen and (max-width: 428px){
-
-  .about{
+@media screen and (max-width: 428px) {
+  .about {
     margin: 60px 0 0 0;
   }
 
-  .about-section{
+  .about-section {
     min-height: 50vh;
   }
- 
+
   .homepage h1 {
     font-size: 2.5rem;
   }
@@ -520,9 +518,9 @@ li {
 
   .info {
     font-size: 1rem;
-   }
+  }
 
-   .form-message{
-     height: 250px;
-   }
+  .form-message {
+    height: 250px;
+  }
 }

@@ -59,6 +59,15 @@ export const ProjectsItems = [
     description:
       "Created Using React, HTML and CSS. Extracts Data from external API server and renders it per specifications",
   },
+
+  {
+    name: "Calculator",
+    img: "/images/projects/Calculator.PNG",
+    link: "https://calc-bboradjiev.vercel.app/",
+    github: "https://github.com/bboradjiev/reactcalculator",
+    description:
+      "Created Using React, HTML and CSS. Extracts Data from external API server and renders it per specifications",
+  },
   {
     name: "Landing Page",
     img: "/images/projects/LandingPage.PNG",

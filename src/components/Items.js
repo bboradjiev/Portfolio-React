@@ -59,7 +59,14 @@ export const ProjectsItems = [
     description:
       "Created Using React, HTML and CSS. Extracts Data from external API server and renders it per specifications",
   },
-
+  {
+    name: "Gallery Slideshow",
+    img: "/images/projects/Gallery.PNG",
+    link: "https://abunchofpaintings.netlify.app/",
+    github: "https://github.com/bboradjiev/ArtGallery",
+    description:
+      "Created Using React, HTML and CSS. Extracts Data from external API server and renders it per specifications",
+  },
   {
     name: "Calculator",
     img: "/images/projects/Calculator.PNG",
@@ -75,14 +82,6 @@ export const ProjectsItems = [
     github: "https://github.com/bboradjiev/langingPage",
     description:
       "Created Using React, HTML and CSS. Landing Page created with React only in order to test and practice React with HTML/CSS/SASS",
-  },
-
-  {
-    name: "Expense Tracker",
-    img: "/images/projects/ExpenceTracker.PNG",
-    link: "https://income-tracker-react.vercel.app/",
-    github: "https://github.com/bboradjiev/IncomeTracker",
-    description: ["React", "HTML", "CSS", "Context"],
   },
 
   {
@@ -110,5 +109,11 @@ export const ProjectsItems = [
     description:
       "Created Using React, HTML and CSS.Provides weather status for entered location, changes background based on weather input",
   },
-  
+  {
+    name: "Expense Tracker",
+    img: "/images/projects/ExpenceTracker.PNG",
+    link: "https://income-tracker-react.vercel.app/",
+    github: "https://github.com/bboradjiev/IncomeTracker",
+    description: ["React", "HTML", "CSS", "Context"],
+  },
 ];

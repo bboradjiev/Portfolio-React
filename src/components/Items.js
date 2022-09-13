@@ -3,9 +3,9 @@ export const ToolkitItems = [
 
   { name: "React", img: "/images/tools/icons8-react-80.png" },
 
-  { name: "Python", img: "/images/tools/icons8-python-96.png" },
+  { name: "Angular", img: "/images/tools/angular-logo.png" },
 
-  { name: "Django", img: "/images/tools/icons8-django-100.png" },
+  { name: "TypeScript", img: "/images/tools/ts-logo.png" },
 
   { name: "CSS", img: "/images/tools/icons8-css3-96.png" },
 
@@ -43,6 +43,20 @@ export const HobbiesItems = [
 ];
 
 export const ProjectsItems = [
+  {
+    name: "Ecommerce Store",
+    img: "/images/projects/ecom.PNG",
+    link: "https://hardcore-wright-d6ac70.netlify.app/",
+    github: "https://github.com/bboradjiev/Ecommerce-page",
+    description: ["React", "HTML", "CSS", "Context"],
+  },
+  {
+    name: "Landing Page",
+    img: "/images/projects/LandingPage2.PNG",
+    link: "https://edesignproj.netlify.app/",
+    github: "https://github.com/bboradjiev/eDesign",
+    description: ["React", "HTML", "CSS", "Context"],
+  },
   {
     name: "Portfolio",
     img: "/images/projects/Portfolio.PNG",

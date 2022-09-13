@@ -1,9 +1,9 @@
 export const ToolkitItems = [
-  { name: "JavaScript", img: "/images/tools/icons8-javascript-96.png" },
+  { name: "Angular", img: "/images/tools/angular-logo.png" },
 
   { name: "React", img: "/images/tools/icons8-react-80.png" },
 
-  { name: "Angular", img: "/images/tools/angular-logo.png" },
+  { name: "JavaScript", img: "/images/tools/icons8-javascript-96.png" },
 
   { name: "TypeScript", img: "/images/tools/ts-logo.png" },
 

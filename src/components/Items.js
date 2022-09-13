@@ -24,9 +24,7 @@ export const HobbiesItems = [
   { name: "Dogs", img: "/images/hobbies/icons8-dog-park-96.png" },
 
   {
-    name: "Basketball",
-    img: "/images/hobbies/icons8-basketball-player-80.png",
-  },
+    name: "Basketball", img: "/images/hobbies/icons8-basketball-player-80.png" },
 
   { name: "Learning", img: "/images/hobbies/icons8-learning-96.png" },
 
@@ -52,7 +50,7 @@ export const ProjectsItems = [
   },
   {
     name: "Landing Page",
-    img: "/images/projects/LandingPage2.PNG",
+    img: "/images/projects/landingPage2.PNG",
     link: "https://edesignproj.netlify.app/",
     github: "https://github.com/bboradjiev/eDesign",
     description: ["React", "HTML", "CSS", "Context"],
